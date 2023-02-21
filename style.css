@@ -1,0 +1,87 @@
+html{
+    background-color: #108bf0a8;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    padding: 20px;
+}
+main{
+  text-align: center;
+}
+.Score-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Score-table h2 {
+    margin: 0 20px;
+  }
+  
+  .Score-table .score {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .Score-table .score h2 {
+    margin: 0 10px;
+  }
+  
+  .player1{
+    color: red;
+  }
+  .player2{
+    color: green;
+  }
+
+table{
+    margin: auto;
+    margin-top: 10px;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 24px;
+    width: 400px;
+    height: 400px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 20px;
+    width: 33.33%;
+    text-align: center;
+}
+
+
+td:not(.selected) {
+    background-color: azure;
+}
+
+td {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+button {
+    line-height: 50px; 
+  margin-bottom: 20px;
+  background-color: #4CAF50; /* Fondo del botón */
+  border: none; /* Quitamos el borde */
+  color: white; /* Color del texto */
+  padding: 15px 32px; /* Espacio interior del botón */
+  text-align: center; /* Alineamos el texto al centro */
+  text-decoration: none; /* Quitamos subrayado */
+  display: inline-block; /* Mostramos el botón como un elemento en línea */
+  font-size: 16px; /* Tamaño del texto */
+  margin: 4px 2px; /* Margen entre elementos */
+  cursor: pointer; /* Cursor de tipo puntero */
+  border-radius: 4px; /* Borde redondeado */
+}
